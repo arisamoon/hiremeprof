@@ -1,0 +1,103 @@
+/*basics*/
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url('1.jpg');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+}
+
+
+/*naviagtion bar*/
+.topnav{
+  background-color: #AE8455;
+  overflow:hidden;
+  border-radius: 3px;
+}
+
+.topnav a{
+  float:left;
+  color:#f2f2f2;
+  text-align: center;
+  padding:14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover{
+  background-color: #CEB9A7;
+  color:black;
+}
+
+
+/*images*/
+.pfp{
+  width:500px;
+  margin-left: 100px;
+  border: 40px solid white;
+  border-radius: 14px;
+}
+
+.project{
+  max-width: 100%;
+  height:auto;
+  margin-left:10px;
+}
+
+/*headers and paragraphs*/
+h1{
+  margin-left: 250px;
+  font-family: 'Yeseva One', cursive;
+  color:#AE8455;
+}
+
+h2{
+  font-family: 'Yeseva One', cursive;
+  font-size:53px;
+  color:white;
+}
+
+h3{
+  font-family: 'Playfair Display', serif;
+  color:white;
+  font-size: 30px;
+}
+
+p{
+  font-size: 20px;
+}
+
+.titleone{
+  font-family: 'Yeseva One', cursive;
+  margin-left: 10px;
+}
+
+.projone{
+  margin-left: 35px;
+  color:#E7981E;
+  font-size: 20px;
+}
+.gato{
+  color:white;
+}
+
+/*color codes for boxes:
+white, #CEB9A7 (light), #AE8455 (darker brown)
+*/
+.help{
+  border: 7px dashed #E7981E;
+  background-color: #CEB9A7;
+  border-radius: 10px;
+  float:right;
+  margin-right:170px;
+  width:900px;
+  height:735px;
+  text-align: center;
+}
+
+
+

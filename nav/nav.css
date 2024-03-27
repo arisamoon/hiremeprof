@@ -1,0 +1,163 @@
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url('back.jpg');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  text-align: center;
+}
+
+
+.topnav{
+  background-color: #AE8455 ;
+  overflow:hidden;
+}
+
+.topnav a{
+  float:left;
+  color:#f2f2f2;
+  text-align: center;
+  padding:14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover{
+  background-color: #CEB9A7;
+  color:black;
+}
+
+.topnav a.active{
+  background-color: #B6CFC5;
+  color:black;
+}
+
+
+.pfp{
+  border:1px solid #ddd;
+  border-radius:4px;
+  padding:5px;
+  width:500px;
+  float: right;
+}
+
+
+/*education page*/
+.nyitphoto{
+  width: 450px;
+  height:250px;
+  border: 4px solid;
+  border-color:#FFc40e;
+}
+
+.nyitp{
+  color:#1b1a7e;
+  font-family:Arial, Verdana , sans-serif;
+  margin-right: 20em;
+  margin-left: 20em;
+  font-size:18px;
+}
+
+h3{
+  color: #ffc40e;
+  font-size:20px;
+}
+
+.hunterphoto{
+  width:450px;
+  height:250px;
+  border: 4px solid;
+  border-color:#602996;
+}
+
+.hunterq{
+  color:#602996;
+  font-size:20px;
+}
+
+.hunterp{
+  font-family:'Courier New', Courier, monospace;
+  color:#AF6DEE;
+  margin-left:20em;
+  margin-right:20em;
+  font-size:18px;
+}
+
+.queens{
+  width:450px;
+  height:250px;
+  border:4px solid#CE2626;
+}
+
+.queensp{
+  color:#1A3090;
+  font-family: 'Fjalla One', sans-serif;
+  margin-left:20em;
+  margin-right:20em;
+  font-size:18px;
+}
+
+.queensq{
+  color:#ce2626;
+  font-size:20px;
+}
+
+/*personal page*/
+#boxuno{
+  border: 4px dashed #E7981E;
+  border-radius: 10px;
+  background-color: #CEB9A7;
+  margin-top: 10px;
+  text-align: center;
+  margin-left:40px;
+  margin-right:40px;
+}
+
+#boxdos{
+  border: 4px dashed #E7981E;
+  border-radius: 10px;
+  background-color: #CEB9A7;
+  text-align: center;
+  margin-top:10px;
+  margin-left:40px;
+  margin-right:40px;
+}
+
+#boxtres{
+  border: 4px dashed #E7981E;
+  border-radius: 10px;
+  background-color: #CEB9A7;
+  margin-top: 10px;
+  text-align:center;
+  margin-left:40px;
+  margin-right:40px;
+}
+
+.desc1{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.likes{
+  color:white;
+  font-family: 'Yeseva One', cursive;
+  font-size: 30px;
+}
+
+.gato{
+  color:white;
+}
+
+.pics{
+  border:5px solid #e7981e;
+  width:250px;
+  height:250px;
+  margin-right:10px;
+  margin-top: 30px;
+  margin-left: 15px;
+}
